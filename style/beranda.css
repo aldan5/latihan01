@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    background-color: rgb(212, 190, 23);
+    display: flex;
+    justify-content: space-around;
+}
+nav .wrappers{
+    display: flex;
+    flex-direction: row;
+}
+nav .wrappers li, .logo {
+    margin: 20px;
+    list-style: none;
+}
+nav .wrappers li a{
+    text-decoration: none;
+    color: white;
+}
+nav .wrappers :hover{
+    color: black;
+}
+nav .wrappers li a :active{
+    color: rgb(241, 14, 14);
+}
+
+/* main */
+main{
+    background-image: url(../view/gambar/bgberanda.jpg);
+    width: 70%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+h2{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    border: black solid 1px ;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+}
+
+aside{
+    width: 30%;
+    height: 100vh;
+    float: right;
+}
+aside img{
+    background-size: cover;
+}
+aside img {
+    margin: 0 34%;
+    padding-top: 50px;
+}
+aside p{
+    padding: 50px;
+}

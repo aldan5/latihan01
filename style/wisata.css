@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+nav{
+    background-color: rgb(212, 190, 23);
+    display: flex;
+    justify-content: space-around;
+}
+nav .wrappers{
+    display: flex;
+    flex-direction: row;
+}
+nav .wrappers li, .logo, .list i {
+    margin: 20px;
+    list-style: none;
+}
+nav .wrappers li a{
+    text-decoration: none;
+    color: white;
+}
+nav .wrappers :hover{
+    color: black;
+}
+nav .wrappers li a :active{
+    color: rgb(241, 14, 14);
+}
+
+/*main*/
+
+.container{
+    width: 95%;
+    height: 100vh;
+    background-color:  #41403d;
+    margin: 0 auto;
+    display: inline;
+}
+h1{
+   
+    text-align: center;
+    font-size: 37px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-cards{
+    width: 80%;
+    height: 100vh;
+    /* background-color:   rgb(165, 127, 68);  */
+    margin: 6px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: solid 7px rgb(255, 221, 25);
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 7px 7px 1px  rgba(0, 0, 0, 0.361) ;
+    
+}
+.card li{
+    border-radius: 30px;
+    list-style: none;
+    text-align: center;
+    line-height: normal;
+}
+.card li img{
+    border-radius: 27px 27px 0px 0px;
+}
+#det{
+    position: relative;
+    margin: 5px 53px;
+    width: 50%;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 9px;
+    background-color: rgb(220, 172, 0);
+    color: white;
+    
+}
+.info{
+    display:none;
+    position: absolute;
+    margin: 0px 50%;
+    border: 1px solid black;
+    border-radius: 10px;    
+    width: 500px;
+    height: 500px;
+    background-color: rgba(246, 246, 246, 0.492);
+}
+.info iframe{
+   
+   width: fit-content;
+}
+
+/* footer */
+.sosmed{
+    width: 100%;
+    padding: 20px;
+    /* background-color: rgb(212, 190, 23); */
+    background-color: rgb(23, 212, 180);
+    display: flex;
+    justify-content: center;
+    
+}
+.sosmed div{
+    display: inline;
+    margin: 0px 20px;
+    
+}
+

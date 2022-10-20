@@ -1,0 +1,72 @@
+{
+	"wisata" : [
+		{	
+	   "pict" : "../view/gambar/mesjid keraton.jpg",
+	   "nama" : "Mesjid Agung Keraton",
+	   "jenis" : "Religi",
+	   "track" : "Kec.Betoambari"
+	 
+   },
+   {	
+	   "pict" : "../view/gambar/msj Quba.jpg",
+	   "nama" : "Mesjid Quba Keraton",
+	   "jenis" : "Religi",
+	   "track" : "Kec.Betoambari"
+   },
+
+	
+	   {	
+	   "pict" : "../view/gambar/benteng keraton.jpg",
+	   "nama" : "benteng Keraton",
+	   "jenis" : "sejarah",
+	   "track" : "Kec.Betoambari"
+   },
+   
+   {	
+	   "pict" : "../view/gambar/patnir.jpg",
+	   "nama" : "pantai nirwana",
+	   "jenis" : "Laut/air",
+	   "track" : "Kec.Betoambari"
+   },
+   {	
+	"pict" : "../view/gambar/batu popaua.jpg",
+	"nama" : "batu Popaua",
+	"jenis" : "Sejarah",
+	"track" : "Kec.Betoambari"
+},
+{	
+	"pict" : "../view/gambar/kampung tennun.jpg",
+	"nama" : "Kampung Tenun",
+	"jenis" : "Kebudayaan",
+	"track" : "Kec.Betoambari"
+},
+{	
+	"pict" : "../view/gambar/Malige.jpg",
+	"nama" : "Istana Malige",
+	"jenis" : "Sejarah",
+	"track" : "Kec.Wolio"
+},
+{	
+	"pict" : "../view/gambar/permandian bungi.jpg",
+	"nama" : "Air terjun koguna",
+	"jenis" : "Alam",
+	"track" : "Kec.Kokalukuna"
+},
+{	
+	"pict" : "../view/gambar/air jatuh.jpg",
+	"nama" : "Air terju Tirta rimba",
+	"jenis" : "Alam",
+	"track" : "Kec.Kokalukuna"
+},
+{	
+	"pict" : "../view/gambar/batu sori.jpg",
+	"nama" : "Batu sori",
+	"jenis" : "Alam",
+	"track" : "Kec.Lea Lea"
+}
+
+
+
+	]
+}
+	
